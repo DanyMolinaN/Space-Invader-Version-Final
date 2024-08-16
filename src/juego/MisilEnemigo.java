@@ -11,7 +11,7 @@ public class MisilEnemigo extends Misil {
 
 
     protected void initMisil() {
-        ImageIcon ii = new ImageIcon("src/recursos_gráficos/sprites/misil_enemigo.png");
+        ImageIcon ii = new ImageIcon("src/recursos_gráficos/sprites/disparo.png");
         ii.setImage(ii.getImage());
     }
 
@@ -22,4 +22,6 @@ public class MisilEnemigo extends Misil {
             setVisible(false);
         }
     }
+
+
 }
